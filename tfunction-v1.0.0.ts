@@ -38,10 +38,10 @@ const portion = {
     integer: (num:number):number => Math.trunc(num),
     decimal: (num:number):number => (num > -1) ? parseFloat('0.' + ('' + num).split('.')[1]) : parseFloat('-0.' + ('' + num).split('.')[1])
 }
-const jfunction = {
+const tfunction = {
     version:"v1.0.5",
     function:[
-      "jfunction",
+      "tfunction",
       "get",
       "getRandom",
       "log",
