@@ -38,7 +38,7 @@ var portion = {
     integer: function (num) { return Math.trunc(num); },
     decimal: function (num) { return (num > -1) ? parseFloat('0.' + ('' + num).split('.')[1]) : parseFloat('-0.' + ('' + num).split('.')[1]); }
 };
-var jfunction = {
+var tfunction = {
     version: "v1.0.5",
     function: [
         "jfunction",
