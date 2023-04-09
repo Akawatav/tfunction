@@ -41,7 +41,7 @@ var portion = {
 var tfunction = {
     version: "v1.0.5",
     function: [
-        "jfunction",
+        "tfunction",
         "get",
         "getRandom",
         "log",
