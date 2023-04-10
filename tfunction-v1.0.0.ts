@@ -39,7 +39,7 @@ const portion = {
     decimal: (num:number):number => (num > -1) ? parseFloat('0.' + ('' + num).split('.')[1]) : parseFloat('-0.' + ('' + num).split('.')[1])
 }
 const tfunction = {
-    version:"v1.0.5",
+    version:"v1.0.0",
     function:[
       "tfunction",
       "get",
